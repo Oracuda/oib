@@ -1,0 +1,9 @@
+[package]
+name = "oib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+diesel = { version = "2.2.2", features = ["postgres", "chrono"] }
+dotenvy = "0.15.7"
